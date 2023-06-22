@@ -1,0 +1,1 @@
+document.getElementsByClassName(".buttons"),document.getElementById("halfPageOverlay"),document.addEventListener("click",function(e){let t=document.getElementById("halfPageOverlay");e.target.classList.contains("buttons")||t.contains(e.target)||(document.querySelector(".button-cities").style.display="none",t.style.display="none")});
